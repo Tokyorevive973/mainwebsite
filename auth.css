@@ -1,0 +1,200 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body {
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    background:
+
+    radial-gradient(
+        circle at 20% 30%,
+        rgba(0,120,255,.5),
+        transparent 40%
+    ),
+
+    #050816;
+
+
+    font-family:
+    'Segoe UI',
+    sans-serif;
+
+    color:white;
+
+}
+
+
+
+.auth-box {
+
+
+    width:400px;
+
+    padding:40px;
+
+
+    text-align:center;
+
+
+    background:
+    rgba(255,255,255,.12);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border-radius:30px;
+
+
+    border:
+    1px solid rgba(255,255,255,.2);
+
+
+}
+
+
+
+.logo {
+
+    width:90px;
+
+}
+
+
+
+h1 {
+
+    margin:20px;
+
+}
+
+
+
+input {
+
+
+    width:100%;
+
+
+    padding:15px;
+
+
+    margin:10px 0;
+
+
+    border:none;
+
+
+    outline:none;
+
+
+    border-radius:15px;
+
+
+    background:
+    rgba(255,255,255,.15);
+
+
+    color:white;
+
+}
+
+
+
+input::placeholder {
+
+    color:#ddd;
+
+}
+
+
+
+button {
+
+
+    width:100%;
+
+
+    padding:15px;
+
+
+    margin-top:20px;
+
+
+    border:none;
+
+
+    border-radius:25px;
+
+
+    cursor:pointer;
+
+
+    font-weight:700;
+
+
+}
+
+
+
+#authBtn {
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #008cff,
+        #00d9ff
+    );
+
+
+    color:white;
+
+
+}
+
+
+
+#message {
+
+    margin-top:20px;
+
+}
+
+
+
+.switch {
+
+    margin-top:25px;
+
+}
+
+
+
+.switch button {
+
+
+    width:auto;
+
+
+    background:none;
+
+
+    color:#00d9ff;
+
+
+    margin:0;
+
+}
